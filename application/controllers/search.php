@@ -15,7 +15,7 @@ class Search extends CI_Controller {
 	}
 	
 	public function index() 
-    {	
+    {	//TODO
         if(isset($_GET) && !empty($_GET)){
             $array = array();
             $obj->title = "Nissan Murano recien llegado";
