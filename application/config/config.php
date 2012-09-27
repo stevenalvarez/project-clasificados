@@ -15,7 +15,6 @@
 |
 */
 $config['base_url']	= 'http://localhost/clasificados/';
-#$config['base_url']	= 'http://localhost/clasificados/';
 /*
 |--------------------------------------------------------------------------
 | Index File
