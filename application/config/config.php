@@ -14,8 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/project-clasificados/';
-
+$config['base_url']	= 'http://localhost/clasificados/';
 /*
 |--------------------------------------------------------------------------
 | Index File
