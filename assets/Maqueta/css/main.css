@@ -1,0 +1,267 @@
+@font-face { font-family: Bahamas; src: url('../fonts/Bahamas_Plain.eot?iefix'), url('../fonts/Bahamas_Plain.ttf'); }
+@font-face { font-family: Calibri; src: url('../fonts/Calibri.eot?iefix'), url('../fonts/Calibri.ttf'); }
+
+body {
+    background: url('../images/dust_bg.png') repeat 0 0 transparent; 
+    margin: 0;
+}
+ul, li {
+    list-style: none;
+}
+div#header {
+    height: 200px;
+    margin-bottom: 30px;
+}
+div#header .main_wrap {
+    background: none repeat scroll 0 0 #202020;
+    height: 25px;
+    padding: 5px 0;
+}
+div#header div.header_main {
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 880px;
+}
+div.header_main div.logo {
+    float: left;
+}
+div.header_main div.links {
+    float: right;
+    font-family: Bahamas;
+    font-size: 14px;
+    margin-top: 5px;
+}
+div.header_main div.links span {
+    color: #88bf3d;
+    margin: 0 10px;
+}
+div.header_main div.links a {
+    text-decoration: none;
+    font-family: Bahamas;
+    font-size: 14px;
+    color: #ffffff;
+}
+div#header div.main_banner {
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+}
+div.main_banner a img {
+    opacity: 0.5;
+}
+div.main_banner form {
+    display: block;
+    margin: -157px auto 0;
+    position: relative;
+    width: 490px;
+}
+div.main_banner div {
+    background: #202020;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius:  0 0 5px 5px;
+    -khtml-border-radius:  0 0 5px 5px;
+    border-radius:  0 0 5px 5px;
+    font-family: Bahamas;
+    color: #88bf3d;
+}
+div.main_banner form div.search_input {
+    float: left;
+    padding: 0 5px 3px;
+}
+div.main_banner form div.search_input input {
+    background: #e4e4e4;
+    border: none;
+    width: 170px;
+    height: 22px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #c0c0c0;
+    font-family: Bahamas;
+    font-size: 14px;
+    padding-left: 5px;
+}
+div.main_banner form div.search_input button {
+    background: url("../images/buscar_bt.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 26px;
+    width: 65px;
+    vertical-align: top;
+}
+div.main_banner form div.search_select {
+    float: left;
+    font-size: 16px;
+    height: 26px;
+    margin-left: 1px;
+    padding: 3px 8px 0;
+}
+div.main_banner form div.search_select label {
+    float: left;
+    font-size: 16px;
+    padding-top: 1px;
+}
+/*********/
+/*CONTENT*/
+/*********/
+div.content_wrap {
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+    overflow: hidden;
+}
+
+/***************/
+/*******results*/
+/***************/
+div.results {
+    float: left;
+}
+div.results ul.results_list {
+    font-family: calibri;
+    font-size: 14px;
+}
+div.results ul.results_list li {
+    list-style: none;
+    border-bottom: 1px solid #bebebe;
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+div.results ul.results_list li a {
+    color: #000000;
+    text-decoration: underline;
+}
+div.results ul.results_list li div.top span.titulo {
+    
+}
+div.results ul.results_list li div.top span.precio {
+    float: right;
+}
+div.results ul.results_list li div.middle {
+    margin: 20px 0 15px;
+    line-height: 17px;
+}
+div.results ul.results_list li div.bottom span.categoria {
+    float: right;
+}
+div.results div.pagination {
+    float: right;
+    margin: 20px 0;
+}
+div.results div.pagination a {
+    font-family: calibri;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+
+/***************/
+/******sidebar*****/
+/***************/
+
+.content {
+    font-family: Bahamas;
+    color: #343434;
+}
+.content a {
+    text-decoration: none;
+    color: #343434;
+}
+.content .sidebar_wrap {
+    float: left;
+    width: 190px;
+    margin-right: 25px;
+}
+.content .sidebar_wrap .sidebar {
+    background: url("../images/cat_body_bg.png") repeat scroll 0 0 transparent;
+    padding-bottom: 15px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+    -khtml-border-radius:  5px;
+    border-radius:  5px;
+}
+.content .sidebar_wrap .sidebar ul li.active a {
+    color: #8dc63f;
+}
+/***************/
+/******home*****/
+/***************/
+.main_content {
+    float: left;
+    margin-left: 25px;
+    width: 660px;
+}
+ul.categories_list {
+    float: left;
+    overflow: hidden;
+}
+ul.categories_list li.category {
+    width: 190px;
+    margin-right: 25px;
+    float: left;
+}
+.categories_list ul {
+    padding: 0 10px;
+}
+.categories_list ul li {
+    margin: 10px 0;
+}
+.categories_list ul li a:hover {
+    color: #8dc63f;
+}
+.categories_list h2 {
+    background: url("../images/cat_title_bg.png") repeat scroll 0 0 transparent;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    padding: 0 10px;
+    text-align: center;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/************************/
+/**** ANUNCIO ***********/
+/************************/
+.anuncio_main {
+    font-family: Calibri;
+    font-size: 16px;
+    color: #000000;
+}
+.anuncio_main .pic_and_info {
+    
+}
+.anuncio_main .pic_and_info .pic {
+    float: left;
+}
+.anuncio_main .pic_and_info .pic img {
+    max-height: 170px;
+}
+.anuncio_main .pic_and_info .info {
+    float: left;
+    margin-left: 25px;
+}
+.anuncio_main .pic_and_info .info a {
+    color: #000000;
+}
+.anuncio_main .pic_and_info .info p.precio {
+    font-size: 18px;
+    margin: 15px 0 10px;
+}
+.anuncio_main p {
+    line-height: 25px;
+}
+.anuncio_main p span {
+    color: #404040;
+}
+.anuncio_main .description {
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+}
