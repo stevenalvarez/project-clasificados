@@ -8,10 +8,6 @@ class Search extends CI_Controller {
 		
 		$this->load->library('layout');
 		$this->layout->setLayout('layout/frontend');
-        
-		if(!$this->authentication->logged()){
-			redirect("login");
-        }
 	}
 	
 	public function index() 
@@ -36,4 +32,10 @@ class Search extends CI_Controller {
             $this->layout->view('search/index', $data);
         }
 	}
+    
+    public function post($id = "")
+    {
+        $data['string'] = "";
+        $this->layout->view('search/post', $data);
+    }
 }

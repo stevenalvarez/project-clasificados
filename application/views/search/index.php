@@ -1,75 +1,244 @@
-<div class="body_wrap results">
-    <ul class="results_list">
-        <li class="count">
-            <div class="top">
-                <span class="titulo">
-                    150 Resultados: "Nissan Murano 2012"
-                </span>
-            </div>
+<div class="categories">
+    <ul class="categories_list">
+        <li class="category">
+            <a href=""><h2>Negocios</h2></a>
+            <ul>
+                <li>
+                    <a href="">Salud</a>
+                </li>
+                <li>
+                    <a href="">Entretenimiento</a>
+                </li>
+                <li>
+                    <a href="">Inmuebles</a>
+                </li>
+                <li>
+                    <a href="">Trabajos</a>
+                </li>
+                <li>
+                    <a href="">Vehiculos</a>
+                </li>
+            </ul>
         </li>
-        <li>
-            <div class="top">
-                <span class="titulo">
-                    <a href="">Nissan Murano como NUEVO</a>
-                </span>
-                <span class="precio">
-                    Precio: 28.400 $
-                </span>
-            </div>
-            <div class="middle">
-                <p>
-                    Vendo Nissan Murano modelo 2005 por motivos de viaje, esta en perfecto estado, recientemente compre las llantas y los aros. interesados llamar al
-                    72548935 por las noches.
-                </p>
-            </div>
-            <div class="bottom">
-                <span class="categoria">Categoria: Automoviles</span>
-            </div>
+        <li class="category">
+            <a href=""><h2>Salud</h2></a>
+            <ul>
+                <li>
+                    <a href="">Autos</a>
+                </li>
+                <li>
+                    <a href="">Camionetas</a>
+                </li>
+                <li>
+                    <a href="">Motocicletas</a>
+                </li>
+                <li>
+                    <a href="">Trailers</a>
+                </li>
+                <li>
+                    <a href="">Trailers</a>
+                </li>
+            </ul>
         </li>
-        <li>
-            <div class="top">
-                <span class="titulo">
-                    <a href="">Nissan Murano recien llegado</a>
-                </span>
-                <span class="precio">
-                    Precio: 28.400 $
-                </span>
-            </div>
-            <div class="middle">
-                <p>
-                    Vendo Nissan Murano modelo 2005 por motivos de viaje, esta en perfecto estado, recientemente compre las llantas y los aros.
-                </p>
-            </div>
-            <div class="bottom">
-                <span class="categoria">Categoria: Automoviles</span>
-            </div>
+        <li class="category">
+            <a href=""><h2>Entretenimiento</h2></a>
+            <ul>
+                <li>
+                    <a href="">Autos</a>
+                </li>
+                <li>
+                    <a href="">Barcos</a>
+                </li>
+                <li>
+                    <a href="">Varios</a>
+                </li>
+                <li>
+                    <a href="">Camionetas</a>
+                </li>
+                <li>
+                    <a href="">Motocicletas</a>
+                </li>
+            </ul>
         </li>
-        <li>
-            <div class="top">
-                <span class="titulo">
-                    <a href="">Nissan Murano recien llegado</a>
-                </span>
-                <span class="precio">
-                    Precio: 28.400 $
-                </span>
-            </div>
-            <div class="middle">
-                <p>
-                    Vendo Nissan Murano modelo 2005 por motivos de viaje, esta en perfecto estado, recientemente compre las llantas y los aros.Vendo Nissan Murano modelo 2005 por motivos de viaje, esta en perfecto estado, recientemente compre las llantas y los aros. interesados llamar al
-                    72548935 por las noches.Vendo Nissan Murano modelo 2005 por motivos de viaje, esta en perfecto estado, recientemente compre las llantas y los aros. interesados llamar al
-                    72548935 por las noches.
-                </p>
-            </div>
-            <div class="bottom">
-                <span class="categoria">Categoria: Automoviles</span>
-            </div>
+        <li class="category">
+            <a href=""><h2>Inmuebles</h2></a>
+            <ul>
+                <li>
+                    <a href="">Autos</a>
+                </li>
+                <li>
+                    <a href="">Camionetas</a>
+                </li>
+                <li>
+                    <a href="">Motocicletas</a>
+                </li>
+                <li>
+                    <a href="">Trailers</a>
+                </li>
+                <li>
+                    <a href="">Barcos</a>
+                </li>
+            </ul>
+        </li>
+        <li class="category">
+            <a href=""><h2>Trabajos</h2></a>
+            <ul>
+                <li>
+                    <a href="">Autos</a>
+                </li>
+                <li>
+                    <a href="">Camionetas</a>
+                </li>
+                <li>
+                    <a href="">Motocicletas</a>
+                </li>
+                <li>
+                    <a href="">Trailers</a>
+                </li>
+                <li>
+                    <a href="">Barcos</a>
+                </li>
+            </ul>
+        </li>
+        <li class="category">
+            <a href=""><h2>Vehiculos</h2></a>
+            <ul>
+                <li>
+                    <a href="">Autos</a>
+                </li>
+                <li>
+                    <a href="">Camionetas</a>
+                </li>
+                <li>
+                    <a href="">Motocicletas</a>
+                </li>
+                <li>
+                    <a href="">Trailers</a>
+                </li>
+                <li>
+                    <a href="">Barcos</a>
+                </li>
+            </ul>
+        </li>
+        <li class="category">
+            <a href=""><h2>Personales</h2></a>
+            <ul>
+                <li>
+                    <a href="">Autos</a>
+                </li>
+                <li>
+                    <a href="">Camionetas</a>
+                </li>
+                <li>
+                    <a href="">Motocicletas</a>
+                </li>
+                <li>
+                    <a href="">Trailers</a>
+                </li>
+                <li>
+                    <a href="">Barcos</a>
+                </li>
+            </ul>
+        </li>
+        <li class="category">
+            <a href=""><h2>Compra / Venta en general</h2></a>
+            <ul>
+                <li>
+                    <a href="">Autos</a>
+                </li>
+                <li>
+                    <a href="">Camionetas</a>
+                </li>
+                <li>
+                    <a href="">Motocicletas</a>
+                </li>
+                <li>
+                    <a href="">Trailers</a>
+                </li>
+                <li>
+                    <a href="">Barcos</a>
+                </li>
+            </ul>
+        </li>
+        <li class="category">
+            <a href=""><h2>Economia / Servicios basicos</h2></a>
+            <ul>
+                <li>
+                    <a href="">Autos</a>
+                </li>
+                <li>
+                    <a href="">Camionetas</a>
+                </li>
+                <li>
+                    <a href="">Motocicletas</a>
+                </li>
+                <li>
+                    <a href="">Trailers</a>
+                </li>
+                <li>
+                    <a href="">Barcos</a>
+                </li>
+            </ul>
+        </li>
+        <li class="category">
+            <a href=""><h2>Educacion</h2></a>
+            <ul>
+                <li>
+                    <a href="">Autos</a>
+                </li>
+                <li>
+                    <a href="">Camionetas</a>
+                </li>
+                <li>
+                    <a href="">Motocicletas</a>
+                </li>
+                <li>
+                    <a href="">Trailers</a>
+                </li>
+                <li>
+                    <a href="">Barcos</a>
+                </li>
+            </ul>
+        </li>
+        <li class="category">
+            <a href=""><h2>Eventos</h2></a>
+            <ul>
+                <li>
+                    <a href="">Autos</a>
+                </li>
+                <li>
+                    <a href="">Camionetas</a>
+                </li>
+                <li>
+                    <a href="">Motocicletas</a>
+                </li>
+                <li>
+                    <a href="">Trailers</a>
+                </li>
+                <li>
+                    <a href="">Barcos</a>
+                </li>
+            </ul>
+        </li>
+        <li class="category">
+            <a href=""><h2>Vehiculos</h2></a>
+            <ul>
+                <li>
+                    <a href="">Autos</a>
+                </li>
+                <li>
+                    <a href="">Camionetas</a>
+                </li>
+                <li>
+                    <a href="">Motocicletas</a>
+                </li>
+                <li>
+                    <a href="">Trailers</a>
+                </li>
+                <li>
+                    <a href="">Barcos</a>
+                </li>
+            </ul>
         </li>
     </ul>
-    <div class="pagination">
-        <a href="">1</a>
-        -
-        <a href="">2</a>
-        -
-        <a href="">3</a>
-    </div>
 </div>

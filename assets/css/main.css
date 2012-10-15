@@ -1,11 +1,16 @@
-@font-face { font-family: Bahamas; src: url('../fonts/Bahamas Plain.ttf'); }
+@font-face { font-family: Bahamas; src: url('../fonts/Bahamas_Plain.eot?iefix'), url('../fonts/Bahamas_Plain.ttf'); }
+@font-face { font-family: Calibri; src: url('../fonts/Calibri.eot?iefix'), url('../fonts/Calibri.ttf'); }
 
 body {
     background: url('../img/frontend/dust_bg.png') repeat 0 0 transparent; 
     margin: 0;
 }
+ul, li {
+    list-style: none;
+}
 div#header {
     height: 200px;
+    margin-bottom: 30px;
 }
 div#header .main_wrap {
     background: none repeat scroll 0 0 #202020;
@@ -27,7 +32,6 @@ div.header_main div.links {
     font-family: Bahamas;
     font-size: 14px;
     margin-top: 5px;
-    color: #ffffff;
 }
 div.header_main div.links span {
     color: #88bf3d;
@@ -55,10 +59,10 @@ div.main_banner form {
 }
 div.main_banner div {
     background: #202020;
-    -moz-border-radius: 0 0 4px 4px;
-    -webkit-border-radius: 0 0 4px 4px;
-    -khtml-border-radius: 0 0 4px 4px;
-    border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius:  0 0 5px 5px;
+    -khtml-border-radius:  0 0 5px 5px;
+    border-radius:  0 0 5px 5px;
     font-family: Bahamas;
     color: #88bf3d;
 }
@@ -70,6 +74,7 @@ div.main_banner form div.search_input input {
     background: #e4e4e4;
     border: none;
     width: 170px;
+    height: 22px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     -khtml-border-radius: 4px;
@@ -77,7 +82,7 @@ div.main_banner form div.search_input input {
     border: 1px solid #c0c0c0;
     font-family: Bahamas;
     font-size: 14px;
-    padding: 4px 0 4px 5px;
+    padding-left: 5px;
 }
 div.main_banner form div.search_input button {
     background: url("../img/frontend/buscar_bt.png") no-repeat scroll 0 0 transparent;
@@ -85,7 +90,6 @@ div.main_banner form div.search_input button {
     height: 26px;
     width: 65px;
     vertical-align: top;
-    cursor: pointer;
 }
 div.main_banner form div.search_select {
     float: left;
@@ -99,11 +103,21 @@ div.main_banner form div.search_select label {
     font-size: 16px;
     padding-top: 1px;
 }
-/*BODY*/
-div.body_wrap {
+/*********/
+/*CONTENT*/
+/*********/
+div.content_wrap {
     display: block;
     margin: 0 auto;
     width: 900px;
+    overflow: hidden;
+}
+
+/***************/
+/*******results*/
+/***************/
+div.results {
+    float: left;
 }
 div.results ul.results_list {
     font-family: calibri;
@@ -142,4 +156,112 @@ div.results div.pagination a {
     font-size: 14px;
     text-decoration: none;
     color: #000000;
+}
+
+/***************/
+/******sidebar*****/
+/***************/
+
+.content {
+    font-family: Bahamas;
+    color: #343434;
+}
+.content a {
+    text-decoration: none;
+    color: #343434;
+}
+.content .sidebar_wrap {
+    float: left;
+    width: 190px;
+    margin-right: 25px;
+}
+.content .sidebar_wrap .sidebar {
+    background: url("../img/frontend/cat_body_bg.png") repeat scroll 0 0 transparent;
+    padding-bottom: 15px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+    -khtml-border-radius:  5px;
+    border-radius:  5px;
+}
+.content .sidebar_wrap .sidebar ul li.active a {
+    color: #8dc63f;
+}
+/***************/
+/******home*****/
+/***************/
+.main_content {
+    float: left;
+    margin-left: 25px;
+    width: 660px;
+}
+ul.categories_list {
+    float: left;
+    overflow: hidden;
+}
+ul.categories_list li.category {
+    width: 190px;
+    margin-right: 25px;
+    float: left;
+}
+.categories_list ul {
+    padding: 0 10px;
+}
+.categories_list ul li {
+    margin: 10px 0;
+}
+.categories_list ul li a:hover {
+    color: #8dc63f;
+}
+.categories_list h2 {
+    background: url("../img/frontend/cat_title_bg.png") repeat scroll 0 0 transparent;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    padding: 0 10px;
+    text-align: center;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/************************/
+/**** ANUNCIO ***********/
+/************************/
+.anuncio_main {
+    font-family: Calibri;
+    font-size: 16px;
+    color: #000000;
+}
+.anuncio_main .pic_and_info {
+    
+}
+.anuncio_main .pic_and_info .pic {
+    float: left;
+}
+.anuncio_main .pic_and_info .pic img {
+    max-height: 170px;
+}
+.anuncio_main .pic_and_info .info {
+    float: left;
+    margin-left: 25px;
+}
+.anuncio_main .pic_and_info .info a {
+    color: #000000;
+}
+.anuncio_main .pic_and_info .info p.precio {
+    font-size: 18px;
+    margin: 15px 0 10px;
+}
+.anuncio_main p {
+    line-height: 25px;
+}
+.anuncio_main p span {
+    color: #404040;
+}
+.anuncio_main .description {
+    float: left;
+    width: 100%;
+    margin: 15px 0;
 }
