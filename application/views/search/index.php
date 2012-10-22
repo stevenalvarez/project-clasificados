@@ -1,242 +1,266 @@
 <div class="categories">
     <ul class="categories_list">
         <li class="category">
-            <a href=""><h2>Negocios</h2></a>
+            <a href="">
+                <h2><?php echo $this->lang->line('general_business'); ?></h2>
+            </a>
             <ul>
                 <li>
-                    <a href="">Salud</a>
+                    <a href=""><?php echo $this->lang->line('general_health'); ?></a>
                 </li>
                 <li>
-                    <a href="">Entretenimiento</a>
+                    <a href=""><?php echo $this->lang->line('general_entertainment'); ?></a>
                 </li>
                 <li>
-                    <a href="">Inmuebles</a>
+                    <a href=""><?php echo $this->lang->line('general_buildings'); ?></a>
                 </li>
                 <li>
-                    <a href="">Trabajos</a>
+                    <a href=""><?php echo $this->lang->line('general_works'); ?></a>
                 </li>
                 <li>
-                    <a href="">Vehiculos</a>
+                    <a href=""><?php echo $this->lang->line('general_vehicles'); ?></a>
                 </li>
             </ul>
         </li>
         <li class="category">
-            <a href=""><h2>Salud</h2></a>
+            <a href="">
+                <h2><?php echo $this->lang->line('general_health'); ?></h2>
+            </a>
             <ul>
                 <li>
-                    <a href="">Autos</a>
+                    <a href=""><?php echo $this->lang->line('general_cars'); ?></a>
                 </li>
                 <li>
-                    <a href="">Camionetas</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Motocicletas</a>
+                    <a href=""><?php echo $this->lang->line('general_motorcycles'); ?></a>
                 </li>
                 <li>
-                    <a href="">Trailers</a>
+                    <a href=""><?php echo $this->lang->line('general_trailers'); ?></a>
                 </li>
                 <li>
-                    <a href="">Trailers</a>
+                    <a href=""><?php echo $this->lang->line('general_trailers'); ?></a>
                 </li>
             </ul>
         </li>
         <li class="category">
-            <a href=""><h2>Entretenimiento</h2></a>
+            <a href="">
+                <h2><?php echo $this->lang->line('general_entertainment'); ?></h2>
+            </a>
             <ul>
                 <li>
-                    <a href="">Autos</a>
+                    <a href=""><?php echo $this->lang->line('general_cars'); ?></a>
                 </li>
                 <li>
-                    <a href="">Barcos</a>
+                    <a href=""><?php echo $this->lang->line('general_flotilla'); ?></a>
                 </li>
                 <li>
-                    <a href="">Varios</a>
+                    <a href=""><?php echo $this->lang->line('general_several'); ?></a>
                 </li>
                 <li>
-                    <a href="">Camionetas</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Motocicletas</a>
+                    <a href=""><?php echo $this->lang->line('general_motorcycles'); ?></a>
                 </li>
             </ul>
         </li>
         <li class="category">
-            <a href=""><h2>Inmuebles</h2></a>
+            <a href="">
+                <h2><?php echo $this->lang->line('general_buildings'); ?></h2>
+            </a>
             <ul>
                 <li>
-                    <a href="">Autos</a>
+                    <a href=""><?php echo $this->lang->line('general_cars'); ?></a>
                 </li>
                 <li>
-                    <a href="">Camionetas</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Motocicletas</a>
+                    <a href=""><?php echo $this->lang->line('general_motorcycles'); ?></a>
                 </li>
                 <li>
-                    <a href="">Trailers</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Barcos</a>
+                    <a href=""><?php echo $this->lang->line('general_flotilla'); ?></a>
                 </li>
             </ul>
         </li>
         <li class="category">
-            <a href=""><h2>Trabajos</h2></a>
+            <a href="">
+                <h2><?php echo $this->lang->line('general_works'); ?></h2>
+            </a>
             <ul>
                 <li>
-                    <a href="">Autos</a>
+                    <a href=""><?php echo $this->lang->line('general_cars'); ?></a>
                 </li>
                 <li>
-                    <a href="">Camionetas</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Motocicletas</a>
+                    <a href=""><?php echo $this->lang->line('general_motorcycles'); ?></a>
                 </li>
                 <li>
-                    <a href="">Trailers</a>
+                    <a href=""><?php echo $this->lang->line('general_trailers'); ?></a>
                 </li>
                 <li>
-                    <a href="">Barcos</a>
+                    <a href=""><?php echo $this->lang->line('general_flotilla'); ?></a>
                 </li>
             </ul>
         </li>
         <li class="category">
-            <a href=""><h2>Vehiculos</h2></a>
+            <a href="">
+                <h2><?php echo $this->lang->line('general_vehicles'); ?></h2>
+            </a>
             <ul>
                 <li>
-                    <a href="">Autos</a>
+                    <a href=""><?php echo $this->lang->line('general_cars'); ?></a>
                 </li>
                 <li>
-                    <a href="">Camionetas</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Motocicletas</a>
+                    <a href=""><?php echo $this->lang->line('general_motorcycles'); ?></a>
                 </li>
                 <li>
-                    <a href="">Trailers</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Barcos</a>
+                    <a href=""><?php echo $this->lang->line('general_flotilla'); ?></a>
                 </li>
             </ul>
         </li>
         <li class="category">
-            <a href=""><h2>Personales</h2></a>
+            <a href="">
+                <h2><?php echo $this->lang->line('general_people'); ?></h2>
+            </a>
             <ul>
                 <li>
-                    <a href="">Autos</a>
+                    <a href=""><?php echo $this->lang->line('general_cars'); ?></a>
                 </li>
                 <li>
-                    <a href="">Camionetas</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Motocicletas</a>
+                    <a href=""><?php echo $this->lang->line('general_motorcycles'); ?></a>
                 </li>
                 <li>
-                    <a href="">Trailers</a>
+                    <a href=""><?php echo $this->lang->line('general_trailers'); ?></a>
                 </li>
                 <li>
-                    <a href="">Barcos</a>
+                    <a href=""><?php echo $this->lang->line('general_flotilla'); ?></a>
                 </li>
             </ul>
         </li>
         <li class="category">
-            <a href=""><h2>Compra / Venta en general</h2></a>
+            <a href="">
+                <h2><?php echo $this->lang->line('general_buy_and_sale'); ?></h2>
+            </a>
             <ul>
                 <li>
-                    <a href="">Autos</a>
+                    <a href=""><?php echo $this->lang->line('general_cars'); ?></a>
                 </li>
                 <li>
-                    <a href="">Camionetas</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Motocicletas</a>
+                    <a href=""><?php echo $this->lang->line('general_motorcycles'); ?></a>
                 </li>
                 <li>
-                    <a href="">Trailers</a>
+                    <a href=""><?php echo $this->lang->line('general_trailers'); ?></a>
                 </li>
                 <li>
-                    <a href="">Barcos</a>
+                    <a href=""><?php echo $this->lang->line('general_flotilla'); ?></a>
                 </li>
             </ul>
         </li>
         <li class="category">
-            <a href=""><h2>Economia / Servicios basicos</h2></a>
+            <a href="">
+                <h2><?php echo $this->lang->line('general_economy_service'); ?></h2>
+            </a>
             <ul>
                 <li>
-                    <a href="">Autos</a>
+                    <a href=""><?php echo $this->lang->line('general_cars'); ?></a>
                 </li>
                 <li>
-                    <a href="">Camionetas</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Motocicletas</a>
+                    <a href=""><?php echo $this->lang->line('general_motorcycles'); ?></a>
                 </li>
                 <li>
-                    <a href="">Trailers</a>
+                    <a href=""><?php echo $this->lang->line('general_trailers'); ?></a>
                 </li>
                 <li>
-                    <a href="">Barcos</a>
+                    <a href=""><?php echo $this->lang->line('general_flotilla'); ?></a>
                 </li>
             </ul>
         </li>
         <li class="category">
-            <a href=""><h2>Educacion</h2></a>
+            <a href="">
+                <h2><?php echo $this->lang->line('general_education'); ?></h2>
+            </a>
             <ul>
                 <li>
-                    <a href="">Autos</a>
+                    <a href=""><?php echo $this->lang->line('general_cars'); ?></a>
                 </li>
                 <li>
-                    <a href="">Camionetas</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Motocicletas</a>
+                    <a href=""><?php echo $this->lang->line('general_motorcycles'); ?></a>
                 </li>
                 <li>
-                    <a href="">Trailers</a>
+                    <a href=""><?php echo $this->lang->line('general_trailers'); ?></a>
                 </li>
                 <li>
-                    <a href="">Barcos</a>
+                    <a href=""><?php echo $this->lang->line('general_flotilla'); ?></a>
                 </li>
             </ul>
         </li>
         <li class="category">
-            <a href=""><h2>Eventos</h2></a>
+            <a href="">
+                <h2><?php echo $this->lang->line('general_events'); ?></h2>
+            </a>
             <ul>
                 <li>
-                    <a href="">Autos</a>
+                    <a href=""><?php echo $this->lang->line('general_cars'); ?></a>
                 </li>
                 <li>
-                    <a href="">Camionetas</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Motocicletas</a>
+                    <a href=""><?php echo $this->lang->line('general_motorcycles'); ?></a>
                 </li>
                 <li>
-                    <a href="">Trailers</a>
+                    <a href=""><?php echo $this->lang->line('general_trailers'); ?></a>
                 </li>
                 <li>
-                    <a href="">Barcos</a>
+                    <a href=""><?php echo $this->lang->line('general_flotilla'); ?></a>
                 </li>
             </ul>
         </li>
         <li class="category">
-            <a href=""><h2>Vehiculos</h2></a>
+            <a href="">
+                <h2><?php echo $this->lang->line('general_vehicles'); ?></h2>
+            </a>
             <ul>
                 <li>
-                    <a href="">Autos</a>
+                    <a href=""><?php echo $this->lang->line('general_cars'); ?></a>
                 </li>
                 <li>
-                    <a href="">Camionetas</a>
+                    <a href=""><?php echo $this->lang->line('general_trucks'); ?></a>
                 </li>
                 <li>
-                    <a href="">Motocicletas</a>
+                    <a href=""><?php echo $this->lang->line('general_motorcycles'); ?></a>
                 </li>
                 <li>
-                    <a href="">Trailers</a>
+                    <a href=""><?php echo $this->lang->line('general_trailers'); ?></a>
                 </li>
                 <li>
-                    <a href="">Barcos</a>
+                    <a href=""><?php echo $this->lang->line('general_flotilla'); ?></a>
                 </li>
             </ul>
         </li>

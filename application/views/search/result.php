@@ -3,7 +3,7 @@
         <li class="count">
             <div class="top">
                 <span class="titulo">
-                    150 Resultados: “Nissan Murano 2012”
+                    150 <?php echo $this->lang->line('general_results'); ?>: “Nissan Murano 2012”
                 </span>
             </div>
         </li>
@@ -13,7 +13,7 @@
                     <a href="<?php echo base_url() ?>search/post/<?php echo time();?>">Nissan Murano como NUEVO</a>
                 </span>
                 <span class="precio">
-                    Precio: 28.400 $
+                    <?php echo $this->lang->line('general_price'); ?>: 28.400 $
                 </span>
             </div>
             <div class="middle">
@@ -23,7 +23,7 @@
                 </p>
             </div>
             <div class="bottom">
-                <span class="categoria">Categoria: Automoviles</span>
+                <span class="categoria"><?php echo $this->lang->line('general_categorie'); ?>: <?php echo $this->lang->line('general_automobiles'); ?></span>
             </div>
         </li>
         <li>
@@ -32,7 +32,7 @@
                     <a href="<?php echo base_url() ?>search/post/<?php echo time();?>">Nissan Murano recien llegado</a>
                 </span>
                 <span class="precio">
-                    Precio: 28.400 $
+                    <?php echo $this->lang->line('general_price'); ?>: 28.400 $
                 </span>
             </div>
             <div class="middle">
@@ -41,7 +41,7 @@
                 </p>
             </div>
             <div class="bottom">
-                <span class="categoria">Categoria: Automoviles</span>
+                <span class="categoria"><?php echo $this->lang->line('general_categorie'); ?>: <?php echo $this->lang->line('general_automobiles'); ?></span>
             </div>
         </li>
         <li>
@@ -50,7 +50,7 @@
                     <a href="<?php echo base_url() ?>search/post/<?php echo time();?>">Nissan Murano recien llegado</a>
                 </span>
                 <span class="precio">
-                    Precio: 28.400 $
+                    <?php echo $this->lang->line('general_price'); ?>: 28.400 $
                 </span>
             </div>
             <div class="middle">
@@ -61,7 +61,7 @@
                 </p>
             </div>
             <div class="bottom">
-                <span class="categoria">Categoria: Automoviles</span>
+                <span class="categoria"><?php echo $this->lang->line('general_categorie'); ?>: <?php echo $this->lang->line('general_automobiles'); ?></span>
             </div>
         </li>
     </ul>

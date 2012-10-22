@@ -37,7 +37,8 @@ div.header_main div.links span {
     color: #88bf3d;
     margin: 0 10px;
 }
-div.header_main div.links a {
+div.header_main div.links a,
+div.header_main div.links span.login {
     text-decoration: none;
     font-family: Bahamas;
     font-size: 14px;

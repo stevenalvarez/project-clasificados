@@ -14,14 +14,16 @@
     <![endif]-->
     <script language="javascript">
         BASE_URL = '<?php echo base_url() ?>';
-    </script>    
+    </script>
     <script type="text/javascript">
 		$(document).ready(function() {
 			$('select').replaceSelects();
 		});
 	</script>
+    <title><?php echo $title_page; ?></title>
 </head>
 <body>
+    <?php $this->lang->load('general', "spanish"); ?>
     <div id="header">
         <div class="main_wrap">
             <div class="header_main">
@@ -32,11 +34,11 @@
                 </div>
                 <div class="links">
                     <?php if(!$this->authentication->logged()) :?>
-                        <a href="<?php echo base_url() ?>login">Iniciar Sesion</a>
+                        <a href="<?php echo base_url() ?>login"><?php echo $this->lang->line('general_login'); ?></a>
                         <span>-</span>
-                        <a href="<?php echo base_url() ?>register">Registrarse</a>
+                        <a href="<?php echo base_url() ?>register"><?php echo $this->lang->line('general_register'); ?></a>
                     <?php else: ?>
-                        Bienvenido : <?php echo $this->session->userdata('username');?>
+                        <span class="login"><?php echo $this->lang->line('general_wellcome'); ?> : <?php echo $this->session->userdata('username');?></span>
                     <?php endif;?>
                 </div>
             </div>
@@ -51,7 +53,7 @@
                     <button type="submit"></button>
                 </div>
                 <div class="search_select">
-                <label>En:</label>
+                <label><?php echo $this->lang->line('general_in'); ?>:</label>
                     <select name="cat">
                         <option>Inmuebles</option>
                         <option>Compra / Venta en general</option>
@@ -65,40 +67,40 @@
         <div class="content">
             <div class="sidebar_wrap">
                 <div class="sidebar categories_list">
-                    <h2>Categorias</h2>
+                    <h2><?php echo $this->lang->line('general_categories'); ?></h2>
                     <ul>
                         <li>
-                            <a href="">Negocios</a>
+                            <a href=""><?php echo $this->lang->line('general_business'); ?></a>
                         </li>
                         <li>
-                            <a href="">Salud</a>
+                            <a href=""><?php echo $this->lang->line('general_health'); ?></a>
                         </li>
                         <li>
-                            <a href="">Entretenimiento</a>
+                            <a href=""><?php echo $this->lang->line('general_entertainment'); ?></a>
                         </li>
                         <li>
-                            <a href="">Inmuebles</a>
+                            <a href=""><?php echo $this->lang->line('general_buildings'); ?></a>
                         </li>
                         <li>
-                            <a href="">Trabajos</a>
+                            <a href=""><?php echo $this->lang->line('general_works'); ?></a>
                         </li>
                         <li class="active">
-                            <a href="">Motorizados</a>
+                            <a href=""><?php echo $this->lang->line('general_motorcycle'); ?></a>
                         </li>
                         <li>
-                            <a href="">Personales</a>
+                            <a href=""><?php echo $this->lang->line('general_people'); ?></a>
                         </li>
                         <li>
-                            <a href="">Compra / Venta en general</a>
+                            <a href=""><?php echo $this->lang->line('general_buy_and_sale'); ?></a>
                         </li>
                         <li>
-                            <a href="">Economia / Servicios basicos</a>
+                            <a href=""><?php echo $this->lang->line('general_economy_service'); ?></a>
                         </li>
                         <li>
-                            <a href="">Educacion</a>
+                            <a href=""><?php echo $this->lang->line('general_education'); ?></a>
                         </li>
                         <li>
-                            <a href="">Eventos</a>
+                            <a href=""><?php echo $this->lang->line('general_events'); ?></a>
                         </li>
                     </ul>
                 </div>

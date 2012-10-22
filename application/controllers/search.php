@@ -6,12 +6,13 @@ class Search extends CI_Controller {
 		
 		parent::__construct();
 		
+        $this->lang->load('general', "spanish");
 		$this->load->library('layout');
 		$this->layout->setLayout('layout/frontend');
 	}
 	
 	public function index() 
-    {	
+    {
         if(isset($_GET) && !empty($_GET)){
             $array = array();
             $obj->title = "Nissan Murano recien llegado";
@@ -22,12 +23,13 @@ class Search extends CI_Controller {
             {
                 $array[] = $obj;
             }
-            
+            $data['title_page'] = "Total Result";
             $data['result'] = $array;
             $data['string'] = $this->input->get("string");
             $this->layout->view('search/result', $data);            
             
         }else{
+            $data['title_page'] = "List";
             $data['string'] = "";
             $this->layout->view('search/index', $data);
         }
@@ -35,6 +37,7 @@ class Search extends CI_Controller {
     
     public function post($id = "")
     {
+        $data['title_page'] = "Result - Post";
         $data['string'] = "";
         $this->layout->view('search/post', $data);
     }
